@@ -1,3 +1,8 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+
 .navdiv{
    /* background-color: aqua; */
    display: flex;
@@ -8,14 +13,16 @@
    width: 100%;
    margin-top: 5px;
    top: 0px;
-   position:fixed;
+   position:sticky;
 }
 .happy{
-    margin-top: 45px;
-    margin-left: 254px;
+  
+  
     height: 100%;
-    width: 82%;
+    width: 100%;
     background-color:rgba(223, 167, 253, 0.575);
+    display: flex;
+    justify-content: space-between;
    
 }
 .navmain{
@@ -125,10 +132,12 @@
 .mainside{
     border: 1px solid gray;
     height: 704px;
-    width: 260px;
-    margin-top: 36px;
-    margin-left: -7px;
-    position: fixed;
+    width:20%;
+    
+   position: sticky;
+   top: 50px;
+    background-color: white;
+    /* position: fixed; */
 }
 
 .content{
@@ -138,11 +147,12 @@
     gap: 20px;
     justify-content: center;
     align-items: center;
-    position:relative;
+    /* position:relative; */
+    width: 80%;
    
 }
 .main1{
-    width: 95%;
+    width:95%;
     height: 390px;
     /* border: 1px solid green; */
     background-color: white;
@@ -284,6 +294,7 @@ border-radius: 8px;
     font-weight: 300;
     margin-left: 10px;
     margin-top: 50px;
+   
 }
 .booksession{
     height: 50px;
@@ -296,6 +307,7 @@ border-radius: 8px;
     border: 3px solid rgb(157, 105, 205);
     color: rgb(157, 105, 205);
     font-size: 15px;
+ 
 }
 .mangesession{
     height: 100%;
@@ -469,6 +481,7 @@ border-radius: 8px;
     margin-left: -3px;
     font-size: 15px;
     font-weight: 300;
+   
  }
  .typegame1{
     height: 180px;
@@ -484,6 +497,7 @@ border-radius: 8px;
  }
  .typegame1 img{
     margin-left: 50px;
+    
  }
  .typegame2{
     height: 180px;
@@ -500,3 +514,6 @@ border-radius: 8px;
  .typegame2 img{
     margin-left: 50px;
  }
+.appcomponent{
+    width: 100vw;
+}

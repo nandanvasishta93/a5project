@@ -28,7 +28,7 @@ import { GoArrowDownRight } from "react-icons/go";
                     <button className='booksession'>Book a Session</button>
                 <div className='sessioncircle'>
                   
-                    <img src="/src/assets/myfile/sc1.jpg" alt="" height={"150px"} width={"150px"}/>
+                    <img src={"/src/assets/myfile/sc1.jpg"} alt="" height={"150px"} width={"150px"}/>
                 </div>
             </div>
             <div className='mangesession'>
@@ -119,7 +119,8 @@ import { GoArrowDownRight } from "react-icons/go";
                         </button>
                     </div>
                     <div className='typegame2'>
-                        <img src="/src/assets/myfile/sc2.jpg" alt="" height={"100px"} width={"100px"} />
+                        
+                        <img src="../assests/sc1.jpg"   alt="not found" height="100px" width="100px" />
                     </div>
                     </div>
             </div>

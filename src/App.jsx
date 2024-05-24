@@ -19,11 +19,13 @@ import Application from './myapp/Application'
 import Learn from './myapp/Learn'
 
 function App() {
-  return (
+  return ( 
+    <div className='appcomponent'>
     <Router>
       <Navbar/>
-      <Application/>
+      
       <aside className='happy'>
+      <Application/>
       <Routes >
         <Route path='/mentorship' element={<Mentorship/>}/>
         <Route path='/home' element={<Home/>}/>
@@ -36,11 +38,12 @@ function App() {
         <Route path='/blog' element={<Blog/>}/>
         <Route path='/community' element={<Community/>}/>
         <Route path='/account' element={<Account/>}/>
-        <Route path='/' element={<Menu/>}/>
+        <Route path='/menu' element={<Menu/>}/>
          </Routes>
          </aside>
    
     </Router>
+    </div>
   )
 }
 
